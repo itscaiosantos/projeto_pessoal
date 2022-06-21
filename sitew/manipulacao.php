@@ -8,7 +8,7 @@ $tel = $POST['tel'];
 $servidor = "localhost";
 $bdname = "cadastro";
 $usuario = "root";
-$senha = "root";
+$senha = " ";
 
 $conexao = mysqli_connect ($servidor, $usuario, $senha, $bdname, 3306);
 
