@@ -8,9 +8,9 @@ $tel = $POST['tel'];
 $servidor = "localhost";
 $bdname = "cadastro";
 $usuario = "root";
-$senha = " ";
+$senha = "root";
 
-$conexao = mysqli_connect ($servidor, $usuario, $senha, $bdname);
+$conexao = mysqli_connect ($servidor, $usuario, $senha, $bdname, 3306);
 
 if (!$conexao) 
     die("Problemas com a conexão. Descrição: " . mysqli_connect_error($conexao));
