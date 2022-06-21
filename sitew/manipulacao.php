@@ -5,12 +5,12 @@ $nasc = $_POST['nascimento'];
 $email = $_POST['email'];
 $tel = $POST['tel'];
 
-$servidor = "0.0.0.0";
+$servidor = "localhost";
 $bdname = "cadastro";
 $usuario = "root";
-$senha = "root";
+$senha = " ";
 
-$conexao = mysqli_connect ($servidor, $usuario, $senha, $bdname, 3306);
+$conexao = mysqli_connect ($servidor, $usuario, $senha, $bdname);
 
 if (!$conexao) 
     die("Problemas com a conexão. Descrição: " . mysqli_connect_error($conexao));
