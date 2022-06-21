@@ -3,7 +3,7 @@
 $servidor = "100.115.92.14";
 $bdname = "cadastro";
 $usuario = "root";
-$senha = "root";
+$senha = "";
 
 $conexao = mysqli_connect ($servidor, $usuario, $senha, $bdname);
 
