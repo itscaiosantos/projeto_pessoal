@@ -1,0 +1,156 @@
+body{
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+/* cabeçalho */
+header{
+   width: 100%;
+   background-color: #DCDCDC;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 15px 0;
+}
+
+.logoimg{
+   width: 60px;
+   height: 60px;
+   background-color: black;
+   border-radius: 30px;
+   
+}
+
+a img{
+   border-radius: 30px;
+   width: 60px;
+   height: 60px;
+}
+
+.logo{
+   display: flex;
+   align-items: center;
+   padding-right: 4px;
+   
+   
+}
+
+.logotxt{
+   margin-left: 20px;
+   color: black;
+   font-family: Arial;
+   
+   
+}
+.logotxt h1 a{
+   text-decoration: none;
+   color: black;
+   font-size: 50px;
+}
+
+.menu li{
+   display: inline-block;
+   margin: 0 10px;
+   
+   font-family: Arial;
+}
+.menu li a {
+   font-size: 25px;
+   margin-left: 20px;
+   text-decoration: none;
+   color: black;
+
+}
+.menu{
+   margin-left: 20em;
+   
+}
+/*fim do cabeçalho */
+/* Video Interativo */
+.video{
+   padding: 50px 20px 10px;
+   margin-top: 50px;
+}
+
+iframe{
+   width: 100%;
+   height: 35em;
+}
+/* Final do Video*/
+
+/* Botão -> Inscreva-se */
+.botao a p{
+   padding:  10px 20px;
+   text-align: center;
+}
+
+.botao a{
+   text-decoration: none;
+   font-family: Arial;
+   color: White;
+   
+}
+
+.botao{
+   margin: 0 24em 0 24em;
+   border-radius: 25px;
+   background:#378dff;
+}
+/* Final Botão*/
+
+/* Texto Explicativo */
+.txt p{
+   font-family: Arial;
+   font-size: 20px;
+   text-align: center;
+}
+
+.txt{
+   margin: 100px 15px 20% 15px;
+}
+/* Fim do Texto*/
+
+/* Rodapé */
+footer{
+  background-color: #DCDCDC;
+  padding: 50px
+}
+/* Menu de info */
+.info a{
+   line-height: 3em;
+   font-family: Arial;
+   color: black;
+   text-decoration: none;
+   
+}
+/* Redes Sociais */
+.midia ul li {
+   font-size: 60px;
+   display: flex;
+   float: right;
+}
+.midia ul li a{
+   margin-left: 15px;
+   color: blue;
+}
+
+#insta{
+   color: Black;
+}
+/* Direitos Autorais */
+#direitos{
+   text-align: center;
+   margin-top: 5em;
+   font-family: Arial;
+   font-size: 16px;
+   color: black
+   
+}
+#c{
+   font-size: 24px;
+}
+
+
+
+   
+
